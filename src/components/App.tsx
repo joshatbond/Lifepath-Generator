@@ -53,7 +53,7 @@ function CharacterInit() {
   const [currentPath, currentPathAssign] = useState<PathType>()
   const [eventCount, eventCountAssign] = useState<number>()
   const [character, characterAssign] = useState<Character>({
-    stats: [10, 10, 10, 10, 10, 10],
+    stats: [8, 8, 8, 8, 8, 8],
     events: [],
   })
 
@@ -62,7 +62,7 @@ function CharacterInit() {
       if (!eventCount) return
 
       const defaultCharacter = {
-        stats: [10, 10, 10, 10, 10, 10],
+        stats: [8, 8, 8, 8, 8, 8],
         events: [],
       } as Character
       let character = defaultCharacter
